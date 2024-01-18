@@ -9,5 +9,5 @@ spec:
       - name: ping-container
         image: busybox
         command: ["ping"]
-        args: ["-c", "4", "google.com"]
+        args: ["-c", "4", "index.hr"]
       restartPolicy: Never
