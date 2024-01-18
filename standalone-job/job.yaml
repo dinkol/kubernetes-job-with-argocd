@@ -9,6 +9,6 @@ spec:
     spec:
       containers:
       - name: jobtest
-        image: busybox
+        image: nginx
         command: ["sleep", "180"] 
       restartPolicy: Never
